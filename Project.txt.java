@@ -46,7 +46,7 @@ class Current extends Bank
 	void deposit() {
 		int amount2;
 		amount2=a.nextInt();
-		totalamount=amount2;
+		totalamount+=amount2;
 		System.out.println(totalamount);
 		
 	}
